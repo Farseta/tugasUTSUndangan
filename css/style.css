@@ -1,0 +1,71 @@
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg_image_rover1.jpg');
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    color: #fefefe;
+}
+
+.display-tc {
+    margin-bottom: 0px;
+    
+    line-height: 1.5;
+
+}
+
+.display-tc a {
+    border-color: #F14E95;
+    color: #F14E95;
+}
+
+P {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bg-image-event {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/tenda_nikah.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    color: #fefefe;
+    padding-bottom: 50px;
+}
+
+.bg-image-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/bg_ajakan.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    color: #fefefe;
+}
+
+.countdown {
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: rgba(240, 238, 238, 0.8) !important;
+    backdrop-filter: blur(10px);
+}
+
+.scroll {
+    transform: translateY(-30px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.scroll--show {
+    transform: translateY(0px);
+    opacity: 1;
+}
